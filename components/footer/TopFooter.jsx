@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TopFooter = () => {
   return (
-    <div className="flex justify-between gap-8 px-20 pt-10">
+    <div className="flex justify-between gap-8 px-20 pt-14">
       {/* Left Section */}
       <div className="flex flex-col w-full">
         <Image

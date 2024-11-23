@@ -13,7 +13,7 @@ const Search = () => {
         type="text"
         name="search"
         id="search"
-        className="w-full text-xs md:text-sm lg:text-base pl-10 py-2 border rounded-[25px] focus:outline-none bg-white"
+        className="w-full text-xs md:text-sm lg:text-base pl-10 py-2  rounded-[25px] focus:outline-none bg-white"
         placeholder="Search"
       />
     </div>

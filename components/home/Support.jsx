@@ -12,7 +12,7 @@ const Support = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="px-28 mx-auto">
+      <div className="px-32 mx-auto">
         <div className="flex items-center justify-between gap-4">
           {SupportData.map((item, index) => (
             <div key={index} className="flex items-center gap-4 px-4">

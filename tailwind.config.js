@@ -13,6 +13,9 @@ module.exports = {
       xl: "1200px",
       "2xl": "1400px",
     },
+    fontFamily: {
+      primary: ["pacifico", "s"],
+    },
     extend: {
       colors: {
         background: "#F5F3FF",

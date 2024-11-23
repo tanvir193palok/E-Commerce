@@ -24,10 +24,10 @@ const Support = () => {
                 className="w-[40px] h-[40px] object-contain"
               />
               <div>
-                <h3 className="text-[19px] font-semibold text-white">
+                <h3 className="text-[19px] font-semibold text-white uppercase">
                   {item.mainText}
                 </h3>
-                <p className="text-[13px] text-white pt-1">{item.subText}</p>
+                <p className="text-[13px] text-white pt-1 uppercase">{item.subText}</p>
               </div>
             </div>
           ))}

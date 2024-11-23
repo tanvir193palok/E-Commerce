@@ -5,7 +5,7 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Products = () => {
   return (
-    <div className="mx-28 my-4">
+    <div className="mx-28 my-[24px]">
       <div className="flex justify-between items-center">
         <div>
           <p className="text-[19px] text-[#7E53D4] uppercase">Summer</p>

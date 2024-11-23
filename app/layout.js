@@ -1,6 +1,7 @@
-import localFont from "next/font/local";
+
 import "./globals.css";
 import Header from "@/components/header/header";
+import Footer from "@/components/footer/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body className="bg-background">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

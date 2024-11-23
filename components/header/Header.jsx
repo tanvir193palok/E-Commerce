@@ -6,7 +6,7 @@ import { faBagShopping, faUser } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center px-28 h-[80px]">
+    <div className="flex justify-between items-center mx-28 h-[80px]">
       {/* Logo */}
       <div className="flex-shrink-0 w-[161px] h-[40px]">
         <Image src="/logo.png" alt="logo" width={200} height={100} />

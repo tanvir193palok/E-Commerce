@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Collection = () => {
   return (
-    <div className="w-[1280px] h-[614px] mx-28  my-6">
-      <div className="h-[566px] bg-white flex items-center justify-between relative overflow-visible">
+    <div className="w-[1280px] h-[614px] mx-28 mt-16  mb-6">
+      <div className="h-[566px] flex items-center justify-between relative overflow-visible">
         {/* Image Section */}
         <div className="w-[621px] h-[481px] flex items-center justify-center bg-[#EEECFB] mt-[84px] relative">
           <Image

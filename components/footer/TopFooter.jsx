@@ -2,17 +2,17 @@ import Image from "next/image";
 
 const TopFooter = () => {
   return (
-    <div className="flex justify-between gap-8 px-20 pt-14">
+    <div className="flex flex-col lg:flex-row justify-between lg:gap-8 px-4 lg:px-20 pt-2 lg:pt-14">
       {/* Left Section */}
       <div className="flex flex-col w-full">
         <Image
           src="/logo.png"
           alt="logo"
-          height={100}
-          width={200}
-          className="w-[197px] h-[49px]"
+          height={400}
+          width={400}
+          className="w-[97px] lg:w-[197px] h-[34px] lg:h-[49px] bg-white"
         />
-        <p className="text-[#F5F3FF] text-sm mt-[26px] w-[411px] h-[84px]">
+        <p className="text-[#F5F3FF] text-sm mt-[26px] w-[356px] lg:w-[411px] h-[108px] lg:h-[84px]">
           Saepe quo suscipit vitae quia. Repudiandae nobis quis. Laboriosam unde
           quae qui quasi mollitia tenetur. Dicta explicabo est consectetur
           maxime quos fugit velit assumenda est.

@@ -11,8 +11,8 @@ const ProductCard = ({ product, isCategorized }) => {
         <Image
           src={product.image}
           alt={product.name}
-          width={300}
-          height={300}
+          width={400}
+          height={400}
           className={`w-[286px] ${isCategorized ? "h-[287px]" : "h-[260px]"} object-contain`}
         />
       </div>

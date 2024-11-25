@@ -3,16 +3,16 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <div
-      className="relative h-[500px] bg-cover bg-center"
+      className="relative h-[350px] md:h-[500px] bg-cover bg-center"
       style={{ backgroundImage: "url('/hero.png')" }}
     >
       {/* Text */}
       <div className="absolute inset-0 flex items-center justify-center text-center text-white">
         <div>
-          <h1 className="text-[48px] md:text-6xl font-bold">
+          <h1 className="text-[28px] lg:text-[48px] w-[328px] md:w-full font-bold">
             Elevate Your Everyday Style
           </h1>
-          <p className="mt-4 text-lg md:text-[19px] text-[#F5F3FF]">
+          <p className="mt-2 md:mt-4 text-[13px] md:text-[19px] text-[#F5F3FF]">
             Discover the Latest Trends in Suitable Fashion
           </p>
           <div className="mt-6 flex items-center justify-center">

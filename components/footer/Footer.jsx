@@ -3,8 +3,8 @@ import TopFooter from "./TopFooter";
 
 const Footer = () => {
   return (
-    <div className="h-[491px] mt-20">
-      <div className="bg-black h-[433px]">
+    <div className="h-[650px] lg:h-[511px] mt-20">
+      <div className="bg-black h-[592px] lg:h-[433px]">
         <TopFooter />
         <BottomFooter />
       </div>

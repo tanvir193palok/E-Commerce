@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const Offer = () => {
   return (
-    <div className="w-[1280px] h-[450px] bg-[#EEECFB] mx-28 my-2 flex items-center justify-between px-[75px] overflow-hidden">
+    <div className="w-[360px] lg:w-[1280px] h-[633px] lg:h-[450px] bg-[#EEECFB] mx-4 lg:mx-28 my-2 flex flex-col lg:flex-row justify-center items-center lg:justify-between px-[75px] overflow-hidden">
       {/* Text */}
-      <div className="flex-1 px-6">
+      <div className="flex-1 mt-10 lg:mt-0 px-6 text-center lg:text-left">
         <p className="text-[24px] font-primary text-primary">Big Deal</p>
-        <p className="text-[48px] font-semibold">
+        <p className="w-[328px] lg:w-full text-[28px] lg:text-[48px] font-semibold">
           <span className="text-primary">30% </span>off for New Customers
         </p>
 
-        <div className="mt-[8px] flex items-center">
+        <div className="mt-[8px] flex items-center justify-center lg:justify-start">
           <button className="w-[149px] h-[48px] bg-primary hover:bg-primary-dark text-white rounded-[28px]">
             Shop Now
           </button>
@@ -27,7 +27,7 @@ const Offer = () => {
       </div>
 
       {/* Image */}
-      <div className="w-[427px] h-[450px]">
+      <div className="w-[328px] lg:w-[427px] h-[369px] lg:h-[450px]">
         <Image
           src="/offer.png"
           height={800}
@@ -41,4 +41,3 @@ const Offer = () => {
 };
 
 export default Offer;
-

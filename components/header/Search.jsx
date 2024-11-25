@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Search = () => {
   return (
-    <div className="flex items-center md:w-[50%] xl:w-full xl:max-w-xl relative">
-      <span className="absolute left-2 md:left-3 top-1/2 transform -translate-y-1/2 text-sm md:text-base lg:text-lg xl:text-xl text-gray-400">
+    <div className="hidden md:flex items-center md:w-[50%] xl:w-full xl:max-w-xl relative">
+      <span className="absolute left-2 md:left-3 top-1/2 transform -translate-y-1/2 text-sm md:text-base lg:text-lg xl:text-xl text-black">
         <FontAwesomeIcon icon={faMagnifyingGlass} />
       </span>
       <input

@@ -12,7 +12,11 @@ export default function Home() {
       <Support />
       <NewArrival />
       <Offer />
-      <Collection />
+      <Collection isMan={true} />
+      <span className="block lg:hidden">
+        <Collection isMan={false} />
+      </span>
+
       <Products />
     </div>
   );
